@@ -1,0 +1,174 @@
+/* styles baby */
+
+.container {
+    margin: 0 auto;
+
+  }
+
+
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    float: left;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: left;
+    width: 100%;
+}
+
+#moosicheader {
+    width: 220px;
+    height: auto;
+}
+
+div {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header {
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 4px solid teal;
+    background-clip: border-box;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-items: flex-end;
+    margin-left: auto;
+    gap: 1.2rem;
+    font-size: 30px;
+}
+
+a:link {
+    color: rgb(199, 228, 226);
+    text-decoration: none;  
+}
+
+a:hover {
+    color: teal;
+}
+
+a:active {
+    color: teal;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.maggie {
+    width: auto;
+    height: auto;
+    grid-area: 1 / 2 / 4 / 3; 
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: ;
+    grid-column-gap: 80px;
+    grid-row-gap: 0px;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.g1 {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.g2 {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.g3 {
+    grid-area: 3 / 1 / 4 / 2;
+}
+
+#button {
+    background-color: rgb(199, 228, 226);
+    color: rgb(31, 31, 31);
+    height: 50px;
+    border: 2px solid teal;
+    font-style: h1;
+    font-size: 16px;
+}
+
+#button:hover {
+    background-color: rgb(171, 200, 199);
+    color: teal;
+    height: 50px;
+    border: 2px solid teal;
+}
+
+#secondhalf h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.albums {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-shrink: 3;
+    flex-grow: 1;
+    padding: 20px;
+    flex-basis: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+img {
+    object-fit: contain;
+    max-height: 100vh;
+    max-width: 100%;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+th, td {
+
+    border: 2px solid teal;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    padding: 40px;
+    font-size: 20px;
+}
+
+th {
+    font-size: 16px;
+    padding: 0; 
+}
+
+br {
+    margin: 30px;
+    padding-bottom: 30px;
+}
+
+.footer {
+    text-align: center;
+    background-color: rgb(0, 93, 93);
+    color: white;
+    font-size: smaller;
+    margin-top: 20px;
+    padding: 20px;
+}
